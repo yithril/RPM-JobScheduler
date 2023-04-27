@@ -1,0 +1,20 @@
+{
+  "FuelJobSettings": {
+    "CutoffPeriod": 5,
+    "PollingIntervalInDays": 7
+  },
+  "FuelAPISettings": {
+    "ApiKey": "EthXWE6eUTrBEJ1uTpNCqbL4NjghRxaC2R5tw1b2",
+    "Endpoint": "https://api.eia.gov/v2/petroleum/pri/gnd/data/"
+  },
+  "Serilog": {
+    "MinimalLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Information",
+        "System": "Warning"
+      }
+    }
+  },
+  "ConnectionString": "Server=(localdb)\\MSSQLLocalDB;Integrated Security=true;Initial Catalog=FuelDB"
+}
